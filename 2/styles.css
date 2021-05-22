@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+   width: fit-content;
+   height: fit-content;
+    margin: 0 auto;
+}
+
+#boxes {
+    margin-top: 50px;
+}
+
+.box {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    margin-bottom: 10px;
+    background-color: rgb(130, 119, 226);
+}
+
+.box_content {
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
